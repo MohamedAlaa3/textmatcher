@@ -44,7 +44,7 @@ Returns a JSON list of file names with their similarity score:
   },
   {
     "fileName": "file4.txt",
-    "score": 75
+    "score": 75.0
   }
 ]
 ```
