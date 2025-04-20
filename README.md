@@ -1,6 +1,6 @@
 # Text Matcher
 
-A Spring Boot application that compares a base text file against multiple `.txt` files in a folder to calculate similarity scores using simple word overlap. The results are returned via a REST API, sorted by filename. Supports multithreading for faster performance.
+A Spring Boot application that compares a base text file against multiple `.txt` files in a folder to calculate similarity scores using simple word overlap. The results are returned via a REST API. Supports multithreading for faster performance.
 
 ---
 
