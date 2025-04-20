@@ -47,3 +47,6 @@ Returns a JSON list of file names with their similarity score:
     "score": 75
   }
 ]
+
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/9b388b14-ad47-49b2-89bd-c38e1274a5ad" />
+
