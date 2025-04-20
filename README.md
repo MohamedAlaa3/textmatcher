@@ -24,15 +24,15 @@ Returns a JSON list of file names with their similarity score:
 [
   {
     "fileName": "file1.txt",
-    "score": 100
+    "score": 100.0
   },
   {
     "fileName": "file2.txt",
-    "score": 50
+    "score": 50.0
   },
   {
     "fileName": "file6.txt",
-    "score": 50
+    "score": 50.0
   },
   {
     "fileName": "file5.txt",
@@ -40,7 +40,7 @@ Returns a JSON list of file names with their similarity score:
   },
   {
     "fileName": "file3.txt",
-    "score": 0
+    "score": 0.0
   },
   {
     "fileName": "file4.txt",
