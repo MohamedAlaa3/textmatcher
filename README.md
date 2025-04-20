@@ -47,6 +47,20 @@ Returns a JSON list of file names with their similarity score:
     "score": 75
   }
 ]
+```
 
-<img width="1440" alt="image" src="https://github.com/user-attachments/assets/9b388b14-ad47-49b2-89bd-c38e1274a5ad" />
+## 📸 Screenshot
 
+Below is a screenshot from **Postman** demonstrating a successful API call to the `/api/match-results` endpoint:
+
+![Postman Screenshot](Imags/Screenshot%20from%20postman.png)
+
+## ⚙️ Configuration
+
+The application reads the paths to the base file and the directory of files to compare from the `application.properties` file.
+
+Example configuration:
+
+```properties
+matcher.baseFilePath=/Users/mohamdahmed/Downloads/untitled folder 4/textmatcher/src/main/resources/fileA.txt
+matcher.poolDirectory=/Users/mohamdahmed/Downloads/untitled folder 4/textmatcher/src/main/resources/files
